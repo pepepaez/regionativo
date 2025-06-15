@@ -9,15 +9,12 @@
     config = {
       allowUnfree = true;
       allowUnfreePredicate = _: true;
-      packageOverrides = pkgs: {
-        filen-desktop = pkgs.callPackage ../../packages/filen-desktop/package.appimage.nix { };
-      };
     };
   };
 
   environment.variables = {
     NIX_CONFIG_HOME =
-      (if pkgs.stdenv.isDarwin then "/Users/" else "/home/") + mainUser.username + "/Documents/Nix";
+      (if pkgs.stdenv.isDarwin then "/Users/" else "/home/") + mainUser.username + "/code/regionativo";
   };
 
   nix.settings.experimental-features = [
@@ -27,10 +24,10 @@
 
   myHomeModules = {
     browsers = {
-      firefox.enable = true;
+      #firefox.enable = true;
     };
     devtools = {
-      vscode.enable = true;
+      #vscode.enable = true;
     };
     productivity = {
     };
