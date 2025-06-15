@@ -29,7 +29,7 @@
     devtools = {
       #vscode.enable = true;
     };
-    productivity = {
-    };
+    #productivity = {
+    #};
   };
 }
