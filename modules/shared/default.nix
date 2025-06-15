@@ -33,7 +33,6 @@
       vscode.enable = true;
     };
     productivity = {
-      syncthing.enable = true;
     };
   };
 }
