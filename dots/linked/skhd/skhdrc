@@ -1,0 +1,16 @@
+####################
+# Project Repo: https://github.com/koekeishiya/skhd
+# Reload SKHD: `skhd -r`
+# Test Keys: `skhd -o`
+####################
+
+
+
+# Launch Terminal with Mod + Tilde
+cmd - 0x32 : open -na ghostty
+alt - 0x32 : open -na ghostty
+
+# Launch Firefox with Mod + Shift + Tilde
+cmd + shift - 0x32 : open -na Firefox
+alt + shift - 0x32 : open -na Firefox
+

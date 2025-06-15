@@ -1,0 +1,11 @@
+Starting tmux plugin installation at Thu Jun 12 14:32:21 CDT 2025
+Created plugins directory: /Users/smissingham/.config/tmux/plugins
+TPM already installed at /Users/smissingham/.config/tmux/plugins/tpm
+Installing tmux plugins...
+Already installed "tpm"
+Already installed "tmux"
+Already installed "tmux-cpu"
+Already installed "tmux-battery"
+Already installed "vim-tmux-navigator"
+Tmux plugin installation complete at Thu Jun 12 14:32:21 CDT 2025!
+Log file available at: /Users/smissingham/.config/tmux/scripts/install_plugins.log
