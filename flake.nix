@@ -1,5 +1,5 @@
 {
-  description = "Sean's Multi-System Flake";
+  description = "Jose's Multi-System Flake";
 
   inputs = {
     nixpkgs = {
@@ -99,9 +99,9 @@
 
       # Function to create mainUser with the correct homeDir based on system
       mkMainUser = system: {
-        username = "smissingham";
-        name = "Sean Missingham";
-        email = "sean@missingham.com";
+        username = "regionativo";
+        name = "Jose Paez";
+        email = "jose@paez.mx";
         homeDir = (if isDarwin system then "/Users" else "/home") + "/smissingham";
         terminalApp = "ghostty";
       };
