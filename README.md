@@ -8,6 +8,7 @@
 >`sh <(curl --proto '=https' --tlsv1.2 -L https://nixos.org/nix/install)`
 
 2. [Instal Nix Darwin](https://github.com/nix-darwin/nix-darwin)
+>`git clone --depth=1 git@github.com:nix-darwin/nix-darwin.git`
 >`sudo nix --extra-experimental-features "nix-command flakes" run nix-darwin/nix-darwin-24.11#darwin-rebuild -- switch`
 
 3. Apply System Flake Once Manually
