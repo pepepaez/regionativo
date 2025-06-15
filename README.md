@@ -5,7 +5,7 @@
 ## Installation:
 
 1. [Install Nix](https://nixos.org/download/)
->`$ sh <(curl --proto '=https' --tlsv1.2 -L https://nixos.org/nix/install)`
+>`sh <(curl --proto '=https' --tlsv1.2 -L https://nixos.org/nix/install)`
 
 2. [Instal Nix Darwin](https://github.com/nix-darwin/nix-darwin)
 >`sudo nix run nix-darwin/nix-darwin-24.11#darwin-rebuild -- switch`
