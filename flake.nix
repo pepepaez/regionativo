@@ -102,7 +102,7 @@
         username = "regionativo";
         name = "Jose Paez";
         email = "jose@paez.mx";
-        homeDir = (if isDarwin system then "/Users" else "/home") + "/smissingham";
+        homeDir = (if isDarwin system then "/Users" else "/home") + "/regionativo";
         terminalApp = "ghostty";
       };
 
