@@ -167,13 +167,13 @@
         coeus = mkSystem {
           system = "x86_64-linux";
           builder = nixpkgs.lib.nixosSystem;
-          modules = nixosModules ++ [ ./hosts/coeus/configuration.nix ];
+          modules = nixosModules ;
         };
 
         thalos = mkSystem {
           system = "x86_64-linux";
           builder = nixpkgs.lib.nixosSystem;
-          modules = nixosModules ++ [ ./hosts/thalos/configuration.nix ];
+          modules = nixosModules ;
         };
       };
     };
