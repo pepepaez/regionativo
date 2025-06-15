@@ -142,11 +142,11 @@
     in
     {
       darwinConfigurations = {
-        plutus = mkSystem {
+        regionativo = mkSystem {
           system = "aarch64-darwin";
           builder = nix-darwin.lib.darwinSystem;
           modules = darwinModules ++ [
-            ./hosts/plutus/configuration.nix
+            ./hosts/regionativo/configuration.nix
             inputs.nix-homebrew.darwinModules.nix-homebrew
             {
               nix-homebrew = {
@@ -166,17 +166,6 @@
       };
 
       nixosConfigurations = {
-        coeus = mkSystem {
-          system = "x86_64-linux";
-          builder = nixpkgs.lib.nixosSystem;
-          modules = nixosModules ++ [ ./hosts/coeus/configuration.nix ];
-        };
-
-        thalos = mkSystem {
-          system = "x86_64-linux";
-          builder = nixpkgs.lib.nixosSystem;
-          modules = nixosModules ++ [ ./hosts/thalos/configuration.nix ];
-        };
       };
     };
 }

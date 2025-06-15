@@ -4,8 +4,8 @@
   system =
     let
       appShortcuts = {
-        "New Tab" = "^t";
-        "New Window" = "^n";
+        #"New Tab" = "^t";
+        #"New Window" = "^n";
       };
     in
     {
@@ -16,7 +16,7 @@
         CustomUserPreferences = {
 
           NSGlobalDomain = {
-            #NSUserKeyEquivalents = appShortcuts;
+            NSUserKeyEquivalents = appShortcuts;
           };
 
           "com.apple.desktopservices" = {

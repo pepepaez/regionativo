@@ -35,8 +35,6 @@
       #"balenaetcher"
       "lm-studio"
 
-      "orbstack"
-
       "microsoft-teams"
       "microsoft-excel"
       "microsoft-powerpoint"
